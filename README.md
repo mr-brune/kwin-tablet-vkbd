@@ -4,6 +4,8 @@ Enables the KDE Plasma Wayland virtual keyboard only in tablet mode, preventing 
 
 The project is inspired by [`joshpj/kde_vkbd_toggle`](https://github.com/joshpj/kde_vkbd_toggle), but uses a POSIX shell script and the Plasma 6.7+ virtual-keyboard mode property.
 
+Tested on a Lenovo IdeaPad 5 2-in-1.
+
 ## Requirements
 
 - KDE Plasma 6.7+ on Wayland
