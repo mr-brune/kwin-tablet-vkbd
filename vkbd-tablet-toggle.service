@@ -1,0 +1,12 @@
+[Unit]
+Description=Toggle KWin virtual keyboard on tablet mode
+After=plasma-kwin_wayland.service
+PartOf=graphical-session.target
+
+[Service]
+ExecStart=%h/.local/bin/vkbd-tablet-toggle.sh
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=graphical-session.target
